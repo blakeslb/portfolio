@@ -11,10 +11,11 @@ html {
 
 body {
   padding: 1%;
-  padding-left: 130px;
+  padding-left: 230px;
+  max-width: 1300px;
   font-style: "Montserrat", sans-serif;
   color: #e6e6e6;
-  font-size: 12px;
+  font-size: 14px;
   line-height: 1.1rem;
   background-color: #000000;
   background-image: url("/images/Background.png");
@@ -35,9 +36,9 @@ a {
   border-radius: 6px;
   color: white;
   border: 1px solid #6329B2;
-  font-size: 11px;
+  font-size: 14px;
   font-weight: 600;
-  padding: 8px 12px;
+  padding: 12px 24px;
 }
 
 .primary:hover,
@@ -90,7 +91,7 @@ input:focus, textarea:focus {
 /* || UTILITIES */
 .purple {
   color: #6329B2;
-  font-size: 45px;
+  font-size: 56px;
 }
 
 .flex {
@@ -146,13 +147,14 @@ h1 {
 }
 
 h2 {
-  font-size: 18px;
+  font-size: 34px;
   color: white;
+  line-height: 34px;
 }
 
 h4 {
   font-weight: 400;
-  font-size: 12px;
+  font-size: 18px;
   padding-bottom: 16px;
   border-bottom: 1px solid #1C1E21;
   width: 70%;
@@ -170,7 +172,7 @@ h4 span {
 .sidebar {
   display: flex;
   flex-direction: column;
-  width: 120px;
+  width: 200px;
   position: fixed;
   top: 0;
   left: 0;
@@ -219,19 +221,20 @@ nav div {
 nav a {
   text-align: center;
   color: white;
-  font-size: 16px;
+  font-size: 20px;
   padding: 22px 0px 22px 8px;
   width: 50%;
   transition: font-size 0.5s;
 }
 nav a:hover {
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .connect-list {
   display: flex;
   flex-wrap: nowrap;
   justify-content: space-between;
+  max-width: 450px;
   align-items: center;
 }
 .connect-list i {
@@ -256,14 +259,15 @@ img.follow-me {
   display: flex;
   width: 100%;
   justify-content: center;
+  align-items: center;
 }
 .hero .hero-img-wrapper {
   position: relative;
   margin-top: 9%;
 }
 .hero .avatar {
-  width: 250px;
-  height: 250px;
+  width: 400px;
+  height: 400px;
 }
 @keyframes rotate {
   from {
@@ -275,8 +279,8 @@ img.follow-me {
 }
 .hero .avatar-bg-layer {
   position: absolute;
-  width: 250px;
-  height: 250px;
+  width: 500px;
+  height: 500px;
   top: 0;
   left: 0;
   animation-name: rotate;
@@ -285,10 +289,11 @@ img.follow-me {
 .hero button {
   font-weight: 700;
   padding: 12px 24px;
-  font-size: 14px;
+  font-size: 20px;
 }
 
 .hero-container {
+  width: 50%;
   padding-left: 50px;
 }
 .hero-container p {
@@ -308,7 +313,7 @@ img.follow-me {
 .hero-container h1 {
   padding-top: 70px;
   font-weight: 700;
-  font-size: 34px;
+  font-size: 56px;
   line-height: 59px;
   text-transform: uppercase;
   margin-bottom: -10px;
@@ -319,7 +324,8 @@ img.follow-me {
   color: #6329B2;
 }
 .hero-container h2 {
-  font-size: 15px;
+  font-size: 34px;
+  line-height: 34px;
 }
 
 .header {
@@ -330,6 +336,7 @@ img.follow-me {
 }
 .header h1 {
   font-family: "Anton", sans-serif;
+  font-size: 46px;
   letter-spacing: 0.5px;
 }
 .header img {
@@ -354,7 +361,7 @@ img.follow-me {
   flex-direction: column;
   align-items: center;
   width: 50%;
-  max-height: 300px;
+  max-height: 400px;
   padding: 30px;
   background: #6329B2;
   background: linear-gradient(0deg, #6329b2 0%, #9b67e2 100%);
@@ -365,6 +372,7 @@ img.follow-me {
   text-align: center;
   font-weight: 700;
   margin-top: 0;
+  line-height: 34px;
 }
 .video-container iframe {
   width: 300px;
@@ -398,7 +406,7 @@ ul.filters {
 }
 ul.filters li {
   font-weight: 600;
-  font-size: 11px;
+  font-size: 14px;
   color: #e6e6e6;
   margin: 0 20px;
 }
